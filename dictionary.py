@@ -5,3 +5,4 @@ book["milk"] = 1.45
 book["avo"] =  2.45
 
 print(book)
+print(book["avacodo"]))
