@@ -27,3 +27,23 @@ gragh["b"]["a"] = 3
 gragh["b"]["fin"] = 5
 
 gragh["fin"] = {}
+
+#repressinting unkown value to get to fin
+
+infinity  = float["inf"]
+costs = {}
+costs["a"] = 6
+costs["b"] = 2
+costs["fin"] = infinity
+
+#hash  table for parant table:
+parents = {}
+parents["a"] = "start"
+parents["b"] = "start"
+parents["fin"] = None
+
+#array to keep track of checked nodes
+
+processed = ()
+
+#algorithm
