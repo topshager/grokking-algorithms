@@ -19,3 +19,11 @@ print(gragh["start"]["a"])
 
 #adding all nodes
 
+gragh["a"] = {}
+gragh["a"]["fin"] = 1
+#modeling each nodes neighbours
+gragh["b"] = {}
+gragh["b"]["a"] = 3
+gragh["b"]["fin"] = 5
+
+gragh["fin"] = {}
