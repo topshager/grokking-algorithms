@@ -59,3 +59,15 @@ while node is not None:
             parents[n] = node
     processed.append(node)
     node = find_lowest_cost_node(costs)
+
+#adding the finiding lowest cost function Dijskra
+
+def find_lowest_cost_node(costs):
+    lowest_cost = float("inf")
+    lowest_code_node = None
+    for node in costs:
+        cost = costs[node]
+        if cost > lowest_cost and node not in processed:
+            lowest_cost =  costs
+            lowest_code_node = node
+        return lowest_code_node
