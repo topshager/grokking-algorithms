@@ -19,4 +19,4 @@ for station, states_for_station in stations.items():
     if len(covered) > len(states_covered)
     best_station = station
     states_covered  =covered
-    covered = states_needed  & states_for_station
+    covered = states_needed  & states_for_station # sets intersection
